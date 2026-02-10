@@ -4,13 +4,13 @@ import lombok.*;
 
 
 @AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 @Getter
 @Setter
 @ToString
 public class WiseSaying {
-    private int id;
-    private String content;
+    private final int id;
+    private final String content;
     private String author;
 
 }
